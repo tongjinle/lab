@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "技术沉淀",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "handy-redis": "^1.5.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "mocha"

@@ -1,10 +1,3 @@
-# handy-redis
-
-[github](!https://github.com/mmkal/handy-redis)
-
-一个基于 promise 的 redis 库,语言是 typescript
-
-```typescript
 import { createHandyClient } from "handy-redis";
 
 async function test() {
@@ -30,4 +23,3 @@ async function multi() {
 
 test();
 multi();
-```
