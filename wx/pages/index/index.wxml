@@ -1,0 +1,11 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="btns" wx:if="{{isShowBtns}}">
+    <button bindtap='ontap'>选择图片</button>
+    <button bindtap='ontapVideo'>选择视频</button>
+  </view>
+  <view class="photoUrlList" wx:else>
+    <image wx:for="{{photoUrlList}}" mode="widthFix" wx:key="{{index}}" src="{{item}}"></image>
+    <video src="{{videoUrl}}" controls></video>
+  </view>
+</view>
